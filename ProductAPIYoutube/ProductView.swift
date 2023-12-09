@@ -13,8 +13,14 @@ struct ProductView: View {
 
     var body: some View {
         NavigationStack {
-            List(viewModel.products) { product in
-                   ProductRowView(product: product)
+            List {
+                ForEach(Array(viewModel.products.enumerated()), id: \.element.id) { index, product in
+                    NavigationLink {
+                        ProductDetailsView(products: viewModel.products, index: index)
+                    } label: {
+                        ProductRowView(product: product)
+                    }
+                }
             }
             .listStyle(.plain)
             .navigationTitle("Products")

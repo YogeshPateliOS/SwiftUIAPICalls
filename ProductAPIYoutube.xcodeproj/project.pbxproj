@@ -16,6 +16,8 @@
 		901A813D2B02AE430037C70C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A813C2B02AE430037C70C /* ProductView.swift */; };
 		901A813F2B02AEE50037C70C /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A813E2B02AEE50037C70C /* ProductRowView.swift */; };
 		901A81412B02B33B0037C70C /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901A81402B02B33B0037C70C /* Double+Extension.swift */; };
+		905FA73B2B06DDDF00F6469F /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905FA73A2B06DDDF00F6469F /* ProductDetailsView.swift */; };
+		905FA73D2B06E7A800F6469F /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905FA73C2B06E7A800F6469F /* AsyncImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		901A813C2B02AE430037C70C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		901A813E2B02AEE50037C70C /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
 		901A81402B02B33B0037C70C /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		905FA73A2B06DDDF00F6469F /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		905FA73C2B06E7A800F6469F /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				901A813C2B02AE430037C70C /* ProductView.swift */,
 				901A813E2B02AEE50037C70C /* ProductRowView.swift */,
 				901A81402B02B33B0037C70C /* Double+Extension.swift */,
+				905FA73A2B06DDDF00F6469F /* ProductDetailsView.swift */,
+				905FA73C2B06E7A800F6469F /* AsyncImageView.swift */,
 			);
 			path = ProductAPIYoutube;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 				901A81412B02B33B0037C70C /* Double+Extension.swift in Sources */,
 				901A81372B02A8990037C70C /* APIManager.swift in Sources */,
 				901A81392B02AAE50037C70C /* Product.swift in Sources */,
+				905FA73D2B06E7A800F6469F /* AsyncImageView.swift in Sources */,
+				905FA73B2B06DDDF00F6469F /* ProductDetailsView.swift in Sources */,
 				901A81292B02A8410037C70C /* ProductAPIYoutubeApp.swift in Sources */,
 				901A813B2B02AB700037C70C /* ProductViewModel.swift in Sources */,
 			);
