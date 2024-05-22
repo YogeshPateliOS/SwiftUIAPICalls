@@ -48,9 +48,9 @@ struct ProductRowView: View {
 
                 // Price and Buy Button
                 HStack {
-                    Text(product.price.currencyFormat())
-                        .font(.title3)
-                        .foregroundStyle(.indigo)
+                    Text(product.price, format: .currency(code: "USD"))
+                    .font(.title3)
+                    .foregroundStyle(.indigo)
 
                     Spacer()
 
