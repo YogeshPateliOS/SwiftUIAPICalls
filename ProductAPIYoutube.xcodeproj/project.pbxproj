@@ -65,17 +65,12 @@
 		901A81272B02A8410037C70C /* ProductAPIYoutube */ = {
 			isa = PBXGroup;
 			children = (
+				909A1405303A50790027E050 /* Common */,
+				909A1402303A50400027E050 /* Screens */,
+				909A1401303A502E0027E050 /* Service */,
 				901A81282B02A8410037C70C /* ProductAPIYoutubeApp.swift */,
 				901A812C2B02A8430037C70C /* Assets.xcassets */,
 				901A812E2B02A8430037C70C /* Preview Content */,
-				901A81362B02A8990037C70C /* APIManager.swift */,
-				901A81382B02AAE50037C70C /* Product.swift */,
-				901A813A2B02AB700037C70C /* ProductViewModel.swift */,
-				901A813C2B02AE430037C70C /* ProductView.swift */,
-				901A813E2B02AEE50037C70C /* ProductRowView.swift */,
-				901A81402B02B33B0037C70C /* Double+Extension.swift */,
-				905FA73A2B06DDDF00F6469F /* ProductDetailsView.swift */,
-				905FA73C2B06E7A800F6469F /* AsyncImageView.swift */,
 			);
 			path = ProductAPIYoutube;
 			sourceTree = "<group>";
@@ -86,6 +81,51 @@
 				901A812F2B02A8430037C70C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		909A1401303A502E0027E050 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				901A81362B02A8990037C70C /* APIManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		909A1402303A50400027E050 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				909A1404303A50560027E050 /* Product Detail */,
+				909A1403303A50470027E050 /* Product List */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		909A1403303A50470027E050 /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				901A81382B02AAE50037C70C /* Product.swift */,
+				901A813A2B02AB700037C70C /* ProductViewModel.swift */,
+				901A813C2B02AE430037C70C /* ProductView.swift */,
+				901A813E2B02AEE50037C70C /* ProductRowView.swift */,
+			);
+			path = "Product List";
+			sourceTree = "<group>";
+		};
+		909A1404303A50560027E050 /* Product Detail */ = {
+			isa = PBXGroup;
+			children = (
+				905FA73A2B06DDDF00F6469F /* ProductDetailsView.swift */,
+			);
+			path = "Product Detail";
+			sourceTree = "<group>";
+		};
+		909A1405303A50790027E050 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				901A81402B02B33B0037C70C /* Double+Extension.swift */,
+				905FA73C2B06E7A800F6469F /* AsyncImageView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
