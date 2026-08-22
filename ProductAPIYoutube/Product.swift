@@ -1,10 +1,3 @@
-//
-//  Product.swift
-//  ProductAPIYoutube
-//
-//  Created by Yogesh Patel on 13/11/23.
-//
-
 import Foundation
 
 struct Product: Decodable, Identifiable {
@@ -13,7 +6,7 @@ struct Product: Decodable, Identifiable {
     let price: Double
     let rating: Rate
 
-    static var dummy: Product {
+    static var placeholder: Product {
         return Product(id: 1,
                        title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
                        description: "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",

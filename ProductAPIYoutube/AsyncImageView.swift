@@ -1,10 +1,3 @@
-//
-//  AsyncImageView.swift
-//  ProductAPIYoutube
-//
-//  Created by Yogesh Patel on 16/11/23.
-//
-
 import SwiftUI
 
 struct AsyncImageView: View {
@@ -25,5 +18,5 @@ struct AsyncImageView: View {
 }
 
 #Preview {
-    AsyncImageView(imageURL: Product.dummy.image)
+    AsyncImageView(imageURL: Product.placeholder.image)
 }

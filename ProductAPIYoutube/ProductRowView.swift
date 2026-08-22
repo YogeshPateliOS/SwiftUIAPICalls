@@ -1,10 +1,3 @@
-//
-//  ProductRowView.swift
-//  ProductAPIYoutube
-//
-//  Created by Yogesh Patel on 13/11/23.
-//
-
 import SwiftUI
 
 struct ProductRowView: View {
@@ -85,5 +78,5 @@ struct ProductRowView: View {
 }
 
 #Preview {
-    ProductRowView(product: Product.dummy)
+    ProductRowView(product: Product.placeholder)
 }

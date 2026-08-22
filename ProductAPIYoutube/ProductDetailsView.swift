@@ -1,10 +1,3 @@
-//
-//  ProductDetailsView.swift
-//  ProductAPIYoutube
-//
-//  Created by Yogesh Patel on 16/11/23.
-//
-
 import SwiftUI
 
 struct ProductDetailsView: View {
@@ -108,7 +101,7 @@ struct ProductDetailsView: View {
 }
 
 #Preview {
-    ProductDetailsView(products: [Product.dummy], index: 0)
+    ProductDetailsView(products: [Product.placeholder], index: 0)
 }
 
 struct RatingInfoView: View {

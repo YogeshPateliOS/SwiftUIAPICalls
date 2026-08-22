@@ -1,10 +1,3 @@
-//
-//  APIManager.swift
-//  ProductAPIYoutube
-//
-//  Created by Yogesh Patel on 13/11/23.
-//
-
 import Foundation
 
 enum NetworkError: Error {
