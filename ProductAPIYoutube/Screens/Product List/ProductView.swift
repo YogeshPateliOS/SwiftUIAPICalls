@@ -13,7 +13,7 @@ struct ProductView: View {
                 case .ready:
                     productView
                 case .error:
-                    EmptyView()
+                    errorView
                 }
             }
             .navigationTitle("Products")
@@ -43,6 +43,21 @@ struct ProductView: View {
             }
         }
         .redacted(reason: .placeholder)
+    }
+    
+    private var errorView: some View {
+        ContentUnavailableView {
+            Label("Unable to load products", systemImage: "exclamationmark.triangle")
+        } description: {
+            Text("We couldn't load the products right now. Please try again.")
+        } actions: {
+            Button("Try Again") {
+                Task {
+                    await viewModel.fetchProducts()
+                }
+            }
+            .buttonStyle(.borderedProminent)
+        }
     }
 }
 
